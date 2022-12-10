@@ -1,5 +1,13 @@
 import React from 'react';
 import banner from '../../../imeges/banner-img.png'
+import html from '../../../imeges/html-5.png'
+import css from '../../../imeges/css-3.png'
+import tailwind from '../../../imeges/icons8-tailwind-css-48.png'
+import bootstrap from '../../../imeges/icons8-bootstrap-48.png'
+import reacticone from '../../../imeges/science.png'
+import javaScript from '../../../imeges/js.png'
+import nodejs from '../../../imeges/icons8-nodejs-48.png'
+
 
 const Banner = () => {
     return (
