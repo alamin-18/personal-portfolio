@@ -5,7 +5,7 @@ import about from '../../../imeges/about.jpg'
 
 const About = () => {
     return (
-        <div className='my-10'>
+        <div className='my-10' id='about'>
             <h1 className='text-4xl font-bold text-center mb-6'>About Me</h1>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row">
@@ -18,7 +18,6 @@ const About = () => {
                             <li>City: Pabna, Rajshahi, Bangladesh</li>
                             <li>Email: contact.alamin6@gmail.com</li>
                         </ul>
-                        <button className="btn btn-primary">Get Started</button>
                     </div>
                 </div>
             </div>

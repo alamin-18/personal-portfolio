@@ -13,7 +13,7 @@ import firebase from '../../../imeges/icons8-firebase-48.png'
 const Skills = () => {
 
     return (
-        <div>
+        <div id='skills'>
             <h1 className="text-4xl font-bold text-center mb-10">Professional Skills</h1>
             <div className='lg:w-3/4 mx-auto grid lg:grid-cols-2 gap-4'>
                 <div>
