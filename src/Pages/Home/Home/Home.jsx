@@ -4,7 +4,7 @@ import Banner from '../Banner/Banner';
 import Contacts from '../Contacts/Contacts';
 import Footer from '../Footer/Footer';
 import Navber from '../Navber/Navber';
-import Project from '../Projects/Project';
+import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
             <Banner></Banner>
             <Skills></Skills>
             <About></About>
-            <Project></Project>
+            <Projects></Projects>
             <Contacts></Contacts>
             <Footer></Footer>
         </div>

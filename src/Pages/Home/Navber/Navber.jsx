@@ -1,11 +1,11 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import resume from '../../../imeges/Md Al Amin resume.pdf'
+import resume from '../../../imeges/Md-Al-Amin-resume.pdf'
 
 const Navber = () => {
     return (
         <div>
-            <div className="navbar bg-base-100 fixed">
+            <div className="navbar z-30 bg-base-100 fixed">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -32,7 +32,7 @@ const Navber = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href='https://drive.google.com/file/d/1AbCEaUhXj4cA7eWP9v7wSB78bI8Y_cVx/view?usp=sharing' className="btn" target="_blank">View Resume</a>
+                    <a href={resume} download>Download Resume</a>
                 </div>
             </div>
 

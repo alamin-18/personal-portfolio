@@ -6,11 +6,11 @@ import { toast } from 'react-hot-toast';
 
 const Contacts = () => {
     const form = useRef();
-
+    
     const sendEmail = (e) => {
         e.preventDefault(); // prevents the page from reloading when you hit “Send”
-
-        emailjs.sendForm('service_j0b3t63', 'template_5fu9jqs', e.target, 'IQZlKSnyv052H8Dvc')
+        console.log(form);
+        emailjs.sendForm('service_j0b3t63', 'template_5fu9jqs', form.current, 'IQZlKSnyv052H8Dvc')
         .then((result) => {
             window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
             console.log(result)

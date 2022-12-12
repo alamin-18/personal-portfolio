@@ -1,0 +1,49 @@
+[
+  {
+    "_id": "63975e4e3f44669e620a6c05",
+    "thumline": "https://i.ibb.co/NNGDNYs/rumi.jpg",
+    "img": "https://i.ibb.co/FVJ2JpR/screencapture-food-website-d8746-web-app-foods-2022-12-12-23-21-48.png",
+    "name": "Food Review",
+    "livesite": "https://food-website-d8746.web.app/",
+    "githubClient": "https://github.com/fpalamin/food-client",
+    "githubServer": "https://github.com/fpalamin/food-server",
+    "Features": [
+      "Firebase authentication ,Food buy and review",
+      "Admin added products, users review products.",
+      "My items route user can see his/her items, added and manage item."
+    ],
+    "Technology": "HTML, Tailwind CSS, JavaScript, ReactJS,NodeJS, MongoDB, ExpressJS."
+  },
+  {
+    "_id": "63975e4e5292b4db2f3461d6",
+    "thumline": "https://i.ibb.co/9nFGM9Z/education.jpg",
+    "img": "https://i.ibb.co/gV8B5gs/screencapture-education-website-18721-web-app-course-2022-12-12-23-22-18.png",
+    "name": "Educational",
+    "livesite": "https://education-website-18721.web.app/",
+    "githubClient": "https://github.com/fpalamin/education-client",
+    "githubServer": "https://github.com/fpalamin/education-server",
+    "Features": [
+      "Authentication and Implement simple login and signup system",
+      "Educational Service Provide",
+      "Student Buy Course"
+    ],
+    "Technology": "HTML, Tailwind CSS, JavaScript, ReactJS,NodeJS, MongoDB, ExpressJS."
+  },
+  {
+    "_id": "63975e4ebe94588e18e3784d",
+    "thumline": "https://i.ibb.co/5Y3dMRt/resale-car.jpg",
+    "img": "https://i.ibb.co/hCpQT1T/screencapture-resale-product-d5835-web-app-shop-2022-12-12-23-20-49.png",
+    "name": "Resale Product",
+    "livesite": "https://resale-product-d5835.web.app/",
+    "githubClient": "https://github.com/fpalamin/resale-car-cilent",
+    "githubServer": "https://github.com/fpalamin/resale-car-server",
+    "Features": [
+      "Firebase authentication and Used Product sele",
+      "Seller added products. and seller Verified",
+      "Buyer buys product and Report product to admin",
+      "My Product route Seller can see his/her items, added and manage item.",
+      "Admin Route Show all buyer and seller info and admin delete seller and buyer"
+    ],
+    "Technology": "HTML, Tailwind CSS, JavaScript, ReactJS,NodeJS, MongoDB, ExpressJS."
+  } 
+]

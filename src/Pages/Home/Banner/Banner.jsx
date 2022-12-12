@@ -12,9 +12,12 @@ const Banner = () => {
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img src={banner} className="max-w-sm rounded-lg shadow-2xl" alt='' />
                     <div>
-                        <h1 className="text-5xl font-bold">I'm <span className='text-primary'>Md Al Amin</span>
+                        <h1 className="text-5xl font-bold">Hi I'm <span className='text-primary'>Md Al Amin</span>
                         <br />
-                        <span className='text-primary'>
+                        <span >
+                            <span>I'm Working in</span>
+                            <br />
+                            <span className='text-primary'>
                         <Typewriter
                         
                         words={["Frontend Developer", "Full Stack Web Developer",  "MERN Stack Developer", "ReactJs", "Javascript",  "Node Js"]}
@@ -25,6 +28,7 @@ const Banner = () => {
                         deleteSpeed={50}
                         delaySpeed={1000}
                         ></Typewriter>
+                        </span>
                         </span>
                         
                         </h1>
